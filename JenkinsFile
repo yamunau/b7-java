@@ -1,6 +1,9 @@
 pipeline {
 
 	agent any
+       tool {
+         maven 'maven391'
+             }
 	stages{   
 		stage(clean){
 			steps{
