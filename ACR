@@ -4,7 +4,7 @@ pipeline {
         registryName = "yamu912"
         registryUrl = "yamu912.azurecr.io"
         registryCredential = "ACR"
-        dockerImage = ' '
+        dockerImage = " "
     }
     stages {
         stage('build') {
